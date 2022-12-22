@@ -2,7 +2,8 @@ let mic = document.getElementById("mic");
 let chatareamain = document.querySelector('.chatarea-main');
 let chatareaouter = document.querySelector('.chatarea-outer');
 
-let intro = ["Hello, mera naam Medico hai", "My name is Meidco", "I am Medico"];
+let intro = ["Hello, mera naam Medico hai", "My name is Medico", "I am Medico"];
+let introHindi = ["Hello, mera naam Medico hai"];
 let help = ["Kaisi madad chahiye aapko"];
 let appointment = ["Doctor book ke liye login karo", "What speciality doctor do you want"];
 let doctor = ["Doctor is available", "Sorry no doctor is available right now", "Doctor will be available soon"];
@@ -33,6 +34,10 @@ function chatbotvoice(message) {
     speech.text = "This is test message";
     if (message.includes('who are you')) {
         let finalresult = intro[Math.floor(Math.random() * intro.length)];
+        speech.text = finalresult;
+    }
+    if (message.includes('tum')) {
+        let finalresult = introHindi[Math.floor(Math.random() * introHindi.length)];
         speech.text = finalresult;
     }
     if (message.includes('help')) {
