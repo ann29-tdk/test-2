@@ -2,8 +2,8 @@ let mic = document.getElementById("mic");
 let chatareamain = document.querySelector('.chatarea-main');
 let chatareaouter = document.querySelector('.chatarea-outer');
 
-let intro = ["Hello, I am Chitti", "Hi, I am a Robo", "Hello, My name is Chitti"];
-let help = ["How may i assist you?","How can i help you?","What i can do for you?"];
+let intro = ["Hello, I am Medico", "Hi, I am a Robo", "Hello, Mera naam Robo hai"];
+let help = ["Kaisi madad chahiye?","How can i help you?","What i can do for you?"];
 let greetings = ["i am good you little piece of love", "i am fine, what about you", "don't want to talk", "i am good"];
 let hobbies = ["i love to talk with humans", "i like to make friends like you", "i like cooking"];
 let pizzas = ["which type of pizza do you like?", "i can make a pizza for you", "i would love to make a pizza for you", "would you like cheese pizza?"];
