@@ -2,7 +2,7 @@ let mic = document.getElementById("mic");
 let chatareamain = document.querySelector('.chatarea-main');
 let chatareaouter = document.querySelector('.chatarea-outer');
 
-let intro = ["Hello, mera naam Medico hai"];
+let intro = ["Hello, mera naam Medico hai", "My name is Meidco", "I am Medico"];
 let help = ["Kaisi madad chahiye aapko"];
 let appointment = ["Doctor book ke liye login karo", "What speciality doctor do you want"];
 let doctor = ["Doctor is available", "Sorry no doctor is available right now", "Doctor will be available soon"];
